@@ -1,0 +1,23 @@
+{
+  "pool": {
+    "host": "127.0.0.1",
+    "port": 3333,
+    "wallet": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+    "worker_name": "worker1",
+    "password": "x",
+    "use_ssl": false
+  },
+  "hardware": {
+    "device_mode": "gpu",
+    "cpu_threads": 8,
+    "cpu_throttle_pct": 10,
+    "cpu_priority": "below_normal",
+    "gpu_device_id": 0,
+    "gpu_intensity": 80
+  },
+  "options": {
+    "show_menu_on_startup": true,
+    "auto_start_sim_pool_if_localhost": true,
+    "difficulty_target": 1.0
+  }
+}
